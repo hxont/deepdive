@@ -37,6 +37,7 @@
     padding: 20px 30px;
     position: absolute;
     top: 50%;
+    cursor: pointer;
 }
 
 .text-box {
