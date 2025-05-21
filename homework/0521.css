@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+.phone-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.phone {
+  border-radius: 10px;
+  border: 4px solid black;
+  width: 350px;
+  height: 650px;
+}
+
+.profile {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.detail {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.setting {
+  margin-left: 150px;
+}
+
+.post {
+  height: 60%;
+}
+
+.post-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-react {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.post-like {
+  height: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.post-text {
+  height: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.heart-red::before {
+  color: red;
+}
+
