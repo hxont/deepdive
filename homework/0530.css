@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    list-style-position: inside
+}
+
+li {
+    margin-top: 20px;
+}
+
+#box {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#box2 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    all: unset;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: #d9d9d9;
+}
+
+.myList li {
+    display: none;
+}
