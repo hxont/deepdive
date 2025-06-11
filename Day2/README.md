@@ -69,7 +69,7 @@ git commit -am "커밋 메시지"
 ## 📝 과제
 
 **오늘의 과제**
-> 1. new repository에 commit까지 완료하기
+> new repository에 commit까지 완료하기
 
 💡 **실행 화면 캡처**
 
