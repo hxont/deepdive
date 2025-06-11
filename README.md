@@ -19,11 +19,11 @@
 
 | 구간              | 주제          |
 |-----------------|-------------|
-| Day 1 ~ Day 4   | Git / GitHub |
-| Day 5 ~ Day 10  | HTML / CSS  |
-| Day 11 ~ Day 16 | JavaScript  |
-| Day 17          | Algorithm   |
-| Day 18 ~        | React       |
+| Day 1 ~ Day 5   | Git / GitHub |
+| Day 6 ~ Day 8   | HTML / CSS  |
+| Day 9 ~ Day 19  | JavaScript  |
+| Day 20 ~ Day 22 | Algorithm   |
+| Day 23 ~        | React       |
 
 
 
