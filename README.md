@@ -17,12 +17,13 @@
 
 ## 🗂️ 목차
 
-| 구간            | 주제           |
-|---------------|--------------|
-| Day 1 ~ Day 4 | Git / GitHub |
-| Day 5 ~ Day 7 | HTML / CSS   |
-| Day 8 ~ Day 19 | JavaScript   |
-| Day 20 ~ ...  | (예정 : React) |
+| 구간              | 주제          |
+|-----------------|-------------|
+| Day 1 ~ Day 4   | Git / GitHub |
+| Day 5 ~ Day 10  | HTML / CSS  |
+| Day 11 ~ Day 16 | JavaScript  |
+| Day 17          | Algorithm   |
+| Day 18 ~        | React       |
 
 
 
