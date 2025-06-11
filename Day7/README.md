@@ -11,7 +11,7 @@
 ### 🛠 HTML의 `<head>` 태그 내부를 중심으로 웹페이지의 정보, 디자인, 외부 연결을 설정하는 법
 
 #### 1. `<meta>` 태그
-`<meta>`는 **HTML 문서의 메타데이터(metadata)**를 정의하는 태그예요. 
+`<meta>`는 **HTML 문서의 메타데이터(metadata)** 를 정의하는 태그예요. 
     메타데이터는 브라우저나 검색 엔진이 참고하는 **문서의 정보**예요. 
     화면에 보이지 않지만, 검색엔진 노출, 반응형 설정, 인코딩 등에 중요합니다.
 
@@ -24,7 +24,7 @@
 
 #### 2. `<link>` 태그
 `<link>`는 HTML 문서와 외부 파일(CSS, 아이콘, 폰트 등)을 연결해주는 태그입니다.
-`rel="stylesheet"`는 이 링크가 **스타일시트(CSS)**임을 나타냄 href는 불러올 외부 파일의 경로(URL)를 지정
+`rel="stylesheet"`는 이 링크가 **스타일시트(CSS)** 임을 나타냄 href는 불러올 외부 파일의 경로(URL)를 지정
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
