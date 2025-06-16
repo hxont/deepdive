@@ -2,62 +2,56 @@
 이 문서는 해당 날에 학습한 내용을 정리하고 실습 과제를 기록한 리드미입니다.
 
 ## 🔖 오늘의 주제
-> **HTML**
+> **`<head>` 태그**
 
 ---
 
 ## 📚 배운 내용
 
-### 🛠️ HTML 개념
+### 🛠 HTML의 `<head>` 태그 내부를 중심으로 웹페이지의 정보, 디자인, 외부 연결을 설정하는 법
 
-#### 🌐 HTML이란
+#### 1. `<meta>` 태그
+`<meta>`는 **HTML 문서의 메타데이터(metadata)** 를 정의하는 태그
+메타데이터는 브라우저나 검색 엔진이 참고하는 **문서의 정보**
+화면에 보이지 않지만, 검색엔진 노출, 반응형 설정, 인코딩 등에 중요하다
 
-**HyperText Markup Language**
+```html
+<meta charset="UTF-8"> <!-- 한글 등 다양한 언어를 표현 가능 -->
+<meta name="keywords" content="HTML, CSS, REACT"> <!-- SEO 키워드 -->
+<meta name="description" content="훈티"> <!-- 검색결과 설명 -->
+<meta name="author" content="hxont"> <!-- 문서 작성자 -->
+```
 
-> 📌 HyperText = 링크를 통해 다른 문서로 이동할 수 있는 텍스트  
-> 📌 **Markup Language** = 태그로 구조를 표시하는 언어
->
+#### 2. `<link>` 태그
+`<link>`는 HTML 문서와 외부 파일(CSS, 아이콘, 폰트 등)을 연결해주는 태그
+`rel="stylesheet"`는 이 링크가 **스타일시트(CSS)** 임을 나타냄 href는 불러올 외부 파일의 경로(URL)를 지정
 
-🔹 **종류**: **마크업 언어**
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+```
 
-🔹 **역할**: 웹페이지의 **내용과 구조**를 정의
-
-🔹 **작성 방식**: `<태그>내용</태그>` 형태의 **태그 기반 언어**
-
-🔹 **최신 버전**: HTML5 (`<!DOCTYPE html>` 로 시작)
-
-#### 🧩 주요 개념
-
-🔹 `<!DOCTYPE html>`
-
-- **HTML5 문서임을 선언**하는 코드
-- 브라우저에게 “이건 HTML5 문서야!” 라고 알려주는 역할
-
-🔹 `<html>...</html>`
-
-- **전체 HTML 문서**를 감싸는 루트 요소
-- 웹 페이지는 **이 태그 안에서 시작하고 끝남**
-
-🔹 `<head>...</head>`
-
-- **웹 페이지의 설정 정보를 담는 부분**
-- 예: 제목(title), 스타일시트, 메타 정보 등
-- ⚠️ 사용자(고객)에게 **보이지 않는 영역**
-
-🔹 `<body>...</body>`
-
-- 사용자에게 **화면으로 보이는 영역**
-- 텍스트, 이미지, 버튼 등 웹페이지의 실제 콘텐츠가 위치
+#### 3. `<style>` 태그
+`<style>`은 HTML 문서 내부에 CSS를 직접 작성할 수 있는 영역
+body, p, div 등 HTML 태그에 대해 색상, 글꼴, 정렬 등 시각적 스타일을 지정할 수 있다
+```html
+<style>
+  body {
+    background-color: palevioletred;
+    color: white;
+  }
+</style>
+```
 
 ---
 
 ## 📝 과제
 
 **오늘의 과제**
-> 간단한 자기소개 페이지 만들기
+> 클론코딩
 
 💡 **실행 화면 캡처**   
-<img width="533" alt="스크린샷 2025-06-11 오전 11 48 03" src="https://github.com/user-attachments/assets/fa97be9d-d083-4b67-a005-960b87f5ef4b" />
+<img width="1180" alt="스크린샷 2025-06-11 오후 5 49 01" src="https://github.com/user-attachments/assets/2a6e72d0-faff-474f-8e4e-cc6f01c389a5" />
 ---
 
 ## 💭 오늘의 회고
+meta 태그 존재의 이유를 처음 알게 되었다 🐰

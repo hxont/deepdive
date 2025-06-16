@@ -2,56 +2,95 @@
 이 문서는 해당 날에 학습한 내용을 정리하고 실습 과제를 기록한 리드미입니다.
 
 ## 🔖 오늘의 주제
-> **`<head>` 태그**
+> **CSS**
 
 ---
 
 ## 📚 배운 내용
 
-### 🛠 HTML의 `<head>` 태그 내부를 중심으로 웹페이지의 정보, 디자인, 외부 연결을 설정하는 법
+### 🛠️ CSS
 
-#### 1. `<meta>` 태그
-`<meta>`는 **HTML 문서의 메타데이터(metadata)** 를 정의하는 태그
-    메타데이터는 브라우저나 검색 엔진이 참고하는 **문서의 정보**
-    화면에 보이지 않지만, 검색엔진 노출, 반응형 설정, 인코딩 등에 중요하다
+#### 🎨 CSS란?
+CSS는 **Cascading Style Sheets**의 줄임말로, HTML 문서의 구조(뼈대)에 **디자인을 입히는 역할**을 함
 
-```html
-<meta charset="UTF-8"> <!-- 한글 등 다양한 언어를 표현 가능 -->
-<meta name="keywords" content="HTML, CSS, REACT"> <!-- SEO 키워드 -->
-<meta name="description" content="훈티"> <!-- 검색결과 설명 -->
-<meta name="author" content="hxont"> <!-- 문서 작성자 -->
-```
+- 웹사이트의 색상, 글꼴, 여백, 정렬, 레이아웃 등을 설정
+- HTML은 구조만 있고, CSS가 있어야 보기 좋게 꾸며짐
+- “Cascading(계단식)”이라는 이름처럼, **우선순위와 상속 규칙**이 있음
 
-#### 2. `<link>` 태그
-`<link>`는 HTML 문서와 외부 파일(CSS, 아이콘, 폰트 등)을 연결해주는 태그
-`rel="stylesheet"`는 이 링크가 **스타일시트(CSS)** 임을 나타냄 href는 불러올 외부 파일의 경로(URL)를 지정
+---
 
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-```
+#### 1. 전체 선택자 (Universal Selector)  
+CSS에서 *는 전체 선택자로, HTML 문서의 모든 요소에 스타일을 적용
+주로 **초기화(Reset)**할 때 많이 사용함
 
-#### 3. `<style>` 태그
-`<style>`은 HTML 문서 내부에 CSS를 직접 작성할 수 있는 영역
-body, p, div 등 HTML 태그에 대해 색상, 글꼴, 정렬 등 시각적 스타일을 지정할 수 있다
-```html
-<style>
-  body {
-    background-color: palevioletred;
-    color: white;
+```css
+* {
+  margin: 0;
+  padding: 0;
   }
-</style>
+```
+#### 2. `태그명` 선택자 (Tag Selector)
+HTML 태그 이름 자체로 선택해서 스타일 적용
+
+#### 3. 아이디명 ID 선택자
+#id명 형태로, 하나의 유일한 요소에만 스타일을 줌
+한 HTML 문서에 중복되면 안 됨
+
+```css
+#title {
+color: blue;
+}
+```
+#### 4. 클래스명 클래스 선택자
+.로 시작하며 여러 요소에 반복 적용 가능한 스타일
+하나의 HTML 문서 내에서 여러 개에 부여 가능
+
+```css
+.highlight {
+background: yellow;
+}
+```
+
+#### 5. CSS 가상 클래스 선택자 (Pseudo-class)
+가상 클래스 선택자란 CSS에서 특정 상태이거나 조건에 해당하는 HTML 요소에 스타일을 적용할 수 있게 해주는 기능  
+:로 시작하며, 실제 클래스가 아니라 조건에 의해 적용되는 클래스
+
+```css
+/*:hover — 마우스를 올렸을 때  */
+/*:first-child — 부모 안에서 첫 번째 자식 요소  */
+/*:nth-child(n) — n번째 자식  */
+/*:focus — 포커스 됐을 때 (ex: 입력창 클릭)*/
+
+a:hover {
+color: red;
+}
 ```
 
 ---
+### 🛡️ `<a target="_blank">` 보안 취약점 설명
+`<a href="..." target="_blank">`는 하이퍼링크 클릭 시 새 탭에서 열리게 하는 기능  
+하지만 이렇게 열리는 **새 탭은 기존 탭(원본 페이지)**을 window.opener 객체를 통해 조작할 수 있는 권한을 가짐  
+📛 이로 인해 발생하는 대표적 보안 취약점은:  
+"Reverse Tabnabbing (역탭납치 공격)"  
+공격 방식:
+사용자가 `<a target="_blank">` 링크를 클릭
+악성 사이트로 이동
+해당 사이트에서 window.opener.location을 이용해 원래 페이지를 피싱 사이트로 변경  
+🔐 해결 방법:
+`rel="noopener noreferrer"` 속성을 같이 넣어야 함
+```css
+<a href="https://malicious.site" target="_blank" rel="noopener noreferrer">악성 링크</a>
+```
+
 
 ## 📝 과제
 
 **오늘의 과제**
 > 클론코딩
 
-💡 **실행 화면 캡처**   
-<img width="1180" alt="스크린샷 2025-06-11 오후 5 49 01" src="https://github.com/user-attachments/assets/2a6e72d0-faff-474f-8e4e-cc6f01c389a5" />
+💡 **실행 화면 캡처**
+<img width="1379" alt="스크린샷 2025-06-16 오전 10 13 51" src="https://github.com/user-attachments/assets/d2a53471-963f-4e94-bc37-05417af2f1b6" />
 ---
 
 ## 💭 오늘의 회고
-meta 태그 존재의 이유를 처음 알게 되었다 🐰
+마음에 드는 결과물 🎀
