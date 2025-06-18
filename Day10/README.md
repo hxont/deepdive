@@ -72,9 +72,9 @@ console.log(window.location.href); // 현재 주소
 **오늘의 과제**
 > 인스타그램 클론코딩
 
-💡 **실행 화면 캡처**
-<img width="435" alt="스크린샷 2025-06-18 오전 11 18 21" src="https://github.com/user-attachments/assets/02aef7d3-3274-43fe-bd3b-2ee014362aff" />
+💡 **실행 화면 캡처**   
 ---
+<img width="435" alt="스크린샷 2025-06-18 오전 11 18 21" src="https://github.com/user-attachments/assets/02aef7d3-3274-43fe-bd3b-2ee014362aff" />
 
 ## 💭 오늘의 회고
 연주니 등장 ✨
