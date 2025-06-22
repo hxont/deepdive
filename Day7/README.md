@@ -21,7 +21,7 @@ CSS는 **Cascading Style Sheets**의 줄임말로, HTML 문서의 구조(뼈대)
 
 #### 1. 전체 선택자 (Universal Selector)  
 CSS에서 *는 전체 선택자로, HTML 문서의 모든 요소에 스타일을 적용
-주로 **초기화(Reset)**할 때 많이 사용함
+주로 **초기화(Reset)** 할 때 많이 사용함
 
 ```css
 * {
@@ -67,14 +67,13 @@ color: red;
 ```
 
 ---
-### 🛡️ `<a target="_blank">` 보안 취약점 설명
+### 🛡️ `<a target="_blank">` 보안 취약점
 `<a href="..." target="_blank">`는 하이퍼링크 클릭 시 새 탭에서 열리게 하는 기능  
 하지만 이렇게 열리는 **새 탭은 기존 탭(원본 페이지)**을 window.opener 객체를 통해 조작할 수 있는 권한을 가짐  
 📛 이로 인해 발생하는 대표적 보안 취약점은:  
 "Reverse Tabnabbing (역탭납치 공격)"  
 공격 방식:
-사용자가 `<a target="_blank">` 링크를 클릭
-악성 사이트로 이동
+사용자가 `<a target="_blank">` 링크를 클릭 -> 악성 사이트로 이동          
 해당 사이트에서 window.opener.location을 이용해 원래 페이지를 피싱 사이트로 변경  
 🔐 해결 방법:
 `rel="noopener noreferrer"` 속성을 같이 넣어야 함
