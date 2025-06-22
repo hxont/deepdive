@@ -90,6 +90,7 @@ color: red;
 💡 **실행 화면 캡처**
 
 <img width="1379" alt="스크린샷 2025-06-16 오전 10 13 51" src="https://github.com/user-attachments/assets/d2a53471-963f-4e94-bc37-05417af2f1b6" />
+
 ---
 
 ## 💭 오늘의 회고
