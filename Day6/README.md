@@ -51,6 +51,7 @@ body, p, div 등 HTML 태그에 대해 색상, 글꼴, 정렬 등 시각적 스�
 
 💡 **실행 화면 캡처**   
 <img width="1180" alt="스크린샷 2025-06-11 오후 5 49 01" src="https://github.com/user-attachments/assets/2a6e72d0-faff-474f-8e4e-cc6f01c389a5" />
+
 ---
 
 ## 💭 오늘의 회고
