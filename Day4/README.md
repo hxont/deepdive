@@ -17,8 +17,9 @@
 **오늘의 과제**
 > 1. git 명령어 정리하기
 
-💡 **실행 화면 캡처**   
-https://velog.io/@hxont/git-%EB%AA%85%EB%A0%B9%EC%96%B4
+💡 **실행 화면 캡처**                                  
+
+- [git 명령어 정리](https://velog.io/@hxont/git-%EB%AA%85%EB%A0%B9%EC%96%B4)
 ---
 
 ## 💭 오늘의 회고
