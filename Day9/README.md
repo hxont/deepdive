@@ -75,8 +75,9 @@ HTML 구조, meta 태그, 페이지 속도, 반응형 등
 **오늘의 과제**
 > 클론코딩
 
-💡 **실행 화면 캡처**  
-<img width="1058" alt="스크린샷 2025-06-16 오후 1 26 27" src="https://github.com/user-attachments/assets/44cd4235-9e75-4957-871c-4e502e1436ba" />
+💡 **실행 화면 캡처** 
+
+<img width="897" alt="스크린샷 2025-06-22 오후 9 52 44" src="https://github.com/user-attachments/assets/33ace281-9591-48eb-b179-a583ac1b784e" />
 ---
 
 ## 💭 오늘의 회고
