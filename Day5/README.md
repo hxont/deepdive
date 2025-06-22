@@ -58,6 +58,7 @@
 
 💡 **실행 화면 캡처**   
 <img width="533" alt="스크린샷 2025-06-11 오전 11 48 03" src="https://github.com/user-attachments/assets/fa97be9d-d083-4b67-a005-960b87f5ef4b" />
+
 ---
 
 ## 💭 오늘의 회고
