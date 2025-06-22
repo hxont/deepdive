@@ -38,6 +38,7 @@
 > 구글 클론코딩
 
 💡 **실행 화면 캡처**
+
 <img width="930" alt="스크린샷 2025-06-16 오후 1 22 05" src="https://github.com/user-attachments/assets/be5d3a15-84a0-4956-a50e-fd1ce8f59bf7" />
 ---
 
