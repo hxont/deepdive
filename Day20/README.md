@@ -42,13 +42,11 @@ React에서는 컴포넌트가 반드시 하나의 부모 요소를 반환해야
 ## 📝 과제
 
 **오늘의 과제**
-> jQeury 사용
+>
 
 💡 **실행 화면 캡처**
-
-<img width="381" alt="스크린샷 2025-06-22 오후 10 53 26" src="https://github.com/user-attachments/assets/231ce56c-c14d-4cd8-9428-6144aadcbbb4" />
 
 ---
 
 ## 💭 오늘의 회고
-🥲 피곤
+🥲 
