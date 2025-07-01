@@ -53,4 +53,4 @@ export default function Example() {
 ---
 
 ## 💭 오늘의 회고
-🥲 피곤
+통신 하기 싫어
