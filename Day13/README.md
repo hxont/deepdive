@@ -70,7 +70,7 @@ console.log(warm); // ["빨", "주", "노"]
 - 배열에서 요소 제거/삽입/교체
 ```javascript
 let nums = [10, 20, 30, 40];
-nums.splice(1, 2);  // 20, 30 제거
+nums.splice(1, 2);  // 20, Day30 제거
 console.log(nums); // [10, 40]
 ```
 #### 10. `forEach()`

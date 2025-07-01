@@ -43,6 +43,7 @@ JavaScript의 스프레드 연산자 ...는 배열이나 객체를 펼쳐서 개
 > 스택형 게시판
 
 💡 **실행 화면 캡처**
+
 <img width="654" alt="스크린샷 2025-06-27 오전 9 44 05" src="https://github.com/user-attachments/assets/f499ca51-7905-43f5-a882-83e4e8b15d07" />
 
 

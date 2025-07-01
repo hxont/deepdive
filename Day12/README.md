@@ -18,8 +18,6 @@
 
 💡 **실행 화면 캡처**
 
-<img width="406" alt="스크린샷 2025-06-18 오후 8 32 19" src="https://github.com/user-attachments/assets/ca876694-31da-4dc4-a42d-4ed335ecad1e" />
-
 ---
 
 ## 💭 오늘의 회고
