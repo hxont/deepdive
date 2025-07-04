@@ -23,7 +23,8 @@
 | Day 6 ~ Day 8   | HTML / CSS  |
 | Day 9 ~ Day 19  | JavaScript  |
 | Day 20 ~ Day 22 | Algorithm   |
-| Day 23 ~        | React       |
+| Day 23 ~ Day 33 | React       |
+| Day 34          | Algorithm   |
 
 
 
