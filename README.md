@@ -24,7 +24,7 @@
 | Day 9 ~ Day 19  | JavaScript  |
 | Day 20 ~ Day 22 | Algorithm   |
 | Day 23 ~ Day 33 | React       |
-| Day 34          | Algorithm   |
+| Day 34 ~        | Algorithm   |
 
 
 
