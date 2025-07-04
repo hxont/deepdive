@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 1000;
+    color: #1c3483;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    color: #1c3483;
+}
+
+.banner {
+    background-image: url('https://plus.unsplash.com/premium_photo-1675788939191-713c2abf3da6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUVCJUI5JUI1fGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    /*background-color: white;*/
+    padding: 24px 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #444;
+    color: white;
+}
+
