@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>오늘의 미션</title>
+    <link rel="stylesheet" href="1.css" />
+    <style>
+        body {
+            text-align: center;
+        }
+        .block-example {
+            display: block;
+        }
+        .inline-example {
+            display: inline;
+        }
+        .none-example {
+            display: none;
+        }
+        .child > span {
+            color: pink;
+        }
+        input[type="checkbox"]:checked {
+            outline: 2px solid pink;
+        }
+        input:enabled {
+            font-weight: bold;
+        }
+        input:disabled {
+            opacity: 0.5;
+        }
+        #idstyle {
+            color: pink;
+            font-weight: bold;
+        }
+        .classstyle {
+            color: pink;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>오늘의 미션</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Block, Inline 요소</h2>
+        <p class="block-example">
+            block 요소
+        </p>
+        <p class="inline-example">
+            inline 요소
+        </p>
+        <p class="inline-example">
+            이어져보인다
+        </p>
+        <p class="none-example">
+            display: none 이라 안 보임
+        </p>
+    </section>
+
+    <section>
+        <h2>자손 선택자</h2>
+        <article class="child">
+            <span>핑크색 자손 글자</span>
+        </article>
+    </section>
+
+    <section>
+        <h2>가상 선택자</h2>
+        <label>
+            <input type="checkbox" />
+            체크박스
+        </label>
+        <br />
+        <input type="text" placeholder="활성된 인풋" />
+        <br />
+        <input type="text" placeholder="비활성된 인풋" disabled />
+    </section>
+
+    <section>
+        <h2>기본 선택자</h2>
+        <p id="idstyle">핑크 두꺼운 글자</p>
+        <p class="classstyle">핑크 밑줄</p>
+    </section>
+
+    <section>
+        <h2>인라인 스타일</h2>
+        <p style="color: pink">핑크 인라인</p>
+        <p class="yeah">외부 css 연결</p>
+    </section>
+
+    <section>
+        <h2>회원가입</h2>
+        <form>
+            <label>
+                아이디:
+                <input type="text" name="userid" required>
+            </label>
+            <br>
+            <label>
+                비밀번호:
+                <input type="password" name="password" required>
+            </label>
+            <br>
+            <button type="submit">가입하기</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>표</h2>
+        <table>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+            </tr>
+            <tr>
+                <td>훈티</td>
+                <td>23</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>폼 태그</h2>
+        <form>
+            <label>이름:
+                <input type="text" name="username">
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="subscribe">
+                구독
+            </label><br>
+
+            성별:<br>
+            <label>
+                <input type="radio" name="gender" value="male"> 남자
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> 여자
+            </label><br>
+
+            <button type="submit">제출</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>오늘의 미션 끝~!</p>
+</footer>
+
+</body>
+</html>
+
+<!--✅ 마켓컬리 (https://www.kurly.com)-->
+<!--① <header>-->
+<!--    로고-->
+<!--    검색창-->
+<!--    로그인/회원가입 메뉴-->
+<!--    전체 카테고리 메뉴-->
+<!--    → 사용자 진입 후 가장 먼저 보이는 사이트의 메인 내비게이션 역할 수행-->
+<!--    ② <nav>-->
+<!--    주요 카테고리 메뉴 (신상품, 베스트, 알뜰쇼핑 등)-->
+<!--    → <nav> 안에 <ul> 로 메뉴가 구성됨-->
+<!--    ③ <main>-->
+<!--        이벤트 배너-->
+<!--        상품 리스트 (추천 상품, 인기 상품 등)-->
+<!--        → 페이지의 핵심 콘텐츠가 배치되는 영역-->
+<!--        ④ <section>-->
+<!--        각 상품 리스트 묶음 (예: 오늘의 신상품, 이 상품 어때요?)-->
+<!--        테마별 상품 영역-->
+<!--        → 주제를 묶어서 관리하기에 적합-->
+<!--        ⑤ <article>-->
+<!--        개별 상품 정보-->
+<!--        상품 이미지-->
+<!--        상품명-->
+<!--        가격-->
+<!--        할인 정보-->
+<!--        → 각 상품이 독립적인 정보 단위이므로 <article>로 표현 가능-->
+<!--        ⑥ <aside>-->
+<!--            고객센터 바로가기-->
+<!--            최근 본 상품-->
+<!--            광고 배너-->
+<!--            → 보조 기능이나 부가 정보 배치-->
+<!--            ⑦ <footer>-->
+<!--            회사 정보-->
+<!--            이용약관, 개인정보 처리방침 링크-->
+<!--            고객센터 전화번호-->
